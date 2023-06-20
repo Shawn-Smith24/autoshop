@@ -64,6 +64,8 @@ export async function fetchCars(filters: FilterProps) {
   return result;
 }
 
+
+//unable to find car image API but process for set up is here 
 export const generateCarImageUrl = (car: CarProps, angle?: string) => {
   const url = new URL("https://cdn.imagin.studio/getimage");
   const { make, model, year } = car;
